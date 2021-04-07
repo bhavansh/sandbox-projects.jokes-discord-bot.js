@@ -17,7 +17,6 @@ const joke = async (message) => {
 
 const jokes = async (message) => {
     const jokes = await fetch(API_2);
-    s;
     const json = await jokes.json();
     message.channel.send(json.setup);
     message.channel.send(json.delivery);
