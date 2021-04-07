@@ -1,0 +1,16 @@
+{
+  "name": "jokes_discord_bot",
+  "version": "1.0.0",
+  "description": "This bot interacts with users and send them jokes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Bhavansh Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
